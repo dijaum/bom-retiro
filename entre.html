@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewpor	t" content="width=device-width, initial-scale=1.0">
+	<title>Registre-se</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div id="tamCabec">
+			<div id="navegacao">
+				<a href="index.html">Home</a>
+				<a href="conheça o bairro.html">Conheça o bairro</a>
+				<a href="BomRetiro.html">Informações Demográficas</a>
+				<a href="SobreAutor.html">Sobre o autor</a>
+				
+			</div>
+			<div id="usuario">
+				<a href="entre.html">Registre-se</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div id="entre">
+			<h1>Registre-se</h1>
+			<form action="/pagina-processa-dados-do-form" method="post">
+				
+					<label for="nome" class="registre"><strong>Nome</strong></label>
+					<input type="text" name="nome" id="nome">
+					<br>
+					<br>
+					<label for="email" class="registre"><strong>E-mail</strong></label>
+					<input type="text" name="email" id="email" placeholder="ex: exemplo@email.com">
+					<br>
+					<br>
+					<label for="cep" class="registre"><strong>CEP</strong></label>
+					<input type="text" name="cep" id="cep" maxlength="11" placeholder="ex: 00000-000">
+					<br>
+					<br>
+					<label for="tel" class="registre"><strong>Telefone</strong></label>
+					<input type="text" name="tel" id="tel" placeholder="(00) 99999-9999" maxlength="11">
+					<label for="sexo"><strong>Sexo</strong></label>
+					<input type="radio" name="sexo" id="m" value="m">
+        			<label for="mensalid">M</label>
+        			<input type="radio" name="sexo" id="f" value="f">
+       				<label for="semestralid">F</label>
+					<br>
+					<br>
+					<label for="data" class="registre"><strong>Data Nasc.</strong></label>
+					<input type="date" name="data" id="data">
+				</form>
+				<br>
+				<br>
+				<br>
+				<input type="checkbox" name="esp" class="informativo">
+				<p class="informativo" id="informativo">Desejo receber e-mails informativos sobre o site</p>	
+							
+					<input type="submit" value="enviar" >
+				
+					<br><br><br>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>Este site foi criado por <strong>João Francisco Camargo Costa</strong></p>
+		<div>
+			<adress>
+				<p>Formas de contato: </p>
+				<a href="mailto:joao.costa@germinare.org.br">E-mail: joao.costa@germinare.org.br</a>
+			</adress>
+		</div>
+	</footer>	
+</body>
+</html>
